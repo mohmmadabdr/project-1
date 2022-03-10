@@ -1,0 +1,155 @@
+/* share*/
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(63, 63, 63, 0.5);
+   }
+
+ .ca-l{
+    font-family: Work Sans,Open Sans,Helvetica,Arial,sans-serif!important;
+ }
+ .hover-opacity{
+     transition: opacity 0.5s;
+ }
+ .hover-opacity:hover{
+     opacity: 0.8;
+ }
+ a{
+     text-decoration: none;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .con{
+     width: 80%;
+     margin: auto;
+ }
+ .clear{
+     clear: both;
+ }
+ .header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+ }
+
+ .header .logo{
+     width: 45%;
+     float: left;
+ }
+ .header .nav{
+     width: 55%;
+     float: left;
+     list-style: none;
+     text-align: right;
+ }
+.header .nav li {
+    display: inline-block;  
+    text-align: right;
+ }
+ .nav-l{
+     color: black;
+ list-style-type: none;
+ display: inline-block;  
+ padding: 16px;         
+ }
+ .nav-l{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 15px;
+ }
+ .nav-l::after
+{
+     content: " ";
+     display: block;
+     width: 0;
+     height: 3px;
+     background-color:black;
+     transition: 0.5s;
+ }
+ .nav-l:hover::after{
+     width: 100%;
+ }
+ /*.dropdown{
+    position: relative;
+ }
+ .dropdown-menu{
+    position: absolute;
+    text-align: center;
+    background-color: teal;
+    width: 150px;
+    height: 50px;
+opacity: 0;
+visibility: hidden;
+    transition:opacity 0.5s ,visibility 0.5s
+}
+.dropdown-menu li a {
+    color:white;
+    display: block;
+    padding: 10px;
+}*/
+ .dropdown:hover .dropdown-menu {
+     opacity: 1;
+     visibility: visible;
+ }
+ .home{
+     height: 100vh;
+    background-image: url(../img/HOME.png);
+    background-size: cover; 
+    position: relative;
+ }
+ .home-con{
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+}
+.home-h1{
+    color:black;
+    margin: 15px 0px ;
+    letter-spacing: 2px;
+}
+.home-p{
+    color: black;
+    margin: 15px 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.btn{
+ height: 50px;
+ width: 175px;
+ border-radius: 5px;
+ border: 0;
+ cursor: pointer;
+ font-size: 20px;
+}
+.home-button-get{
+    color: white;
+    background-color: grey;
+    margin-right: 10px;
+}
+.home-button-home{
+color:white;
+background-color: black;
+margin-right: 10px;
+}
+.head1{
+ text-align: center;
+ margin: 30px 0px 0px 0px;
+
+}
+.lan-h{
+    color: black;
+    list-style-type: none;
+    display: inline-block;         
+    text-decoration: none;
+    padding: 30px 15px;
+}
+ 
